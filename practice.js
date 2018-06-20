@@ -14,7 +14,11 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+const me = {
+  name: "Sibyl",
+  age: "28"
+}
+alert(me.name);
 
 
 
@@ -25,7 +29,14 @@
   Have the values to those keys be your favorite thing in that category.
 */
 
-//Code here
+const favoriteThings = {
+  band: "Linkin Park",
+  food: "Cake",
+  person: "Andi",
+  book: "Little Prince",
+  movie: "Coco",
+  holiday: "Christmas"
+}
 
 
 
@@ -34,14 +45,15 @@
 */
 
 //Code here
-
-
+favoriteThings['car'] = "Tesla"
+favoriteThings['brand'] = "Chanel"
 
 /*
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
+favoriteThings['food']="Chicken Nuggets"
+favoriteThings['book']="Harry Potter"
 
 
 
@@ -55,7 +67,10 @@
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
 */
 
-//Code here
+const backPack = {};
+const item = 'firstPocket';
+backPack[item] = 'chapstick';
+backPack.color = 'pink';
 
 
 
@@ -63,7 +78,7 @@
   After you do the above, alert your entire backPack object.
 */
 
-//Code here
+alert(backPack);
 
 
 
@@ -73,7 +88,7 @@ Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console. 
 */
 
-//Code here
+console.log(backPack);
 
 
 
@@ -96,7 +111,8 @@ var user2 = {
   Make that change without modifying the original object code above.
 */
 
-//Code Here
+user2.name = "Tyler S. McGinnis";
+user2.email = "tyler.mcginnis@devmounta.in";
 
 
 
